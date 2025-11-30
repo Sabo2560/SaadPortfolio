@@ -690,6 +690,18 @@
             }
         }
 
+        @media (max-width: 768px) and (min-width: 641px) {
+            .hero-cta {
+                justify-content: center;
+                flex-direction: row;
+                gap: 20px;
+            }
+
+            .btn {
+                width: auto;
+            }
+        }
+
         @media (max-width: 640px) {
             .hero h1 {
                 font-size: 2.2em;
