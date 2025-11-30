@@ -97,6 +97,8 @@
             align-items: center;
             flex-shrink: 0;
             order: -1;
+            width: 280px;
+            height: 280px;
         }
 
         .profile-image {
