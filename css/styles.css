@@ -205,7 +205,23 @@
             gap: 10px;
         }
 
-        .scroll-indicator::after {
+        .scroll-button {
+            color: #999;
+            text-decoration: none;
+            font-weight: 500;
+            transition: all 0.3s ease;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 10px;
+            cursor: pointer;
+        }
+
+        .scroll-button:hover {
+            color: var(--primary);
+        }
+
+        .scroll-button::after {
             content: '↓';
             font-size: 1.5em;
             animation: bounce 2s infinite;
