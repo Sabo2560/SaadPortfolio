@@ -388,15 +388,30 @@
             gap: 30px;
         }
 
-        /* Experience grid: 2 columns on desktop (4 cards -> balanced 2x2),
-           and don't stretch cards to the tallest in a row */
+        /* Experience: single-column stack of full-width cards so cards never
+           stretch to a neighbour's height (no dead space beside shorter roles) */
         #projects .projects-grid {
-            align-items: start;
+            grid-template-columns: 1fr;
         }
 
+        /* On wider screens lay each card out as logo (left) + content (right) */
         @media (min-width: 769px) {
-            #projects .projects-grid {
-                grid-template-columns: repeat(2, 1fr);
+            #projects .project-card {
+                display: grid;
+                grid-template-columns: 150px 1fr;
+                column-gap: 40px;
+                align-content: start;
+            }
+
+            #projects .project-card > .logos-container {
+                grid-column: 1;
+                align-self: start;
+                justify-content: center;
+                margin-bottom: 0;
+            }
+
+            #projects .project-card > :not(.logos-container) {
+                grid-column: 2;
             }
         }
 
