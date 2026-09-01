@@ -17,6 +17,7 @@
             <ul class="nav-links">
                 <li><a href="#about">About</a></li>
                 <li><a href="#projects">Projects</a></li>
+                <li><a href="#open-source">Open Source</a></li>
                 <li><a href="#skills">Skills</a></li>
                 <li><a href="#certifications">Certifications</a></li>
                 <li><a href="#education">Education</a></li>
@@ -60,7 +61,7 @@
         </div>
         <div class="about-grid">
             <div class="about-text">
-                <p>Software Tester and QA Engineer with 3+ years of hands-on experience in Agile Testing methodologies. Specializes in test automation frameworks (Selenium, Playwright), BDD/TDD practices, and API testing.</p>
+                <p>Software Tester and QA Engineer with 5+ years of hands-on experience in Agile Testing methodologies. Specializes in test automation frameworks (Selenium, Playwright), BDD/TDD practices, and API testing.</p>
                 <p>Certified Scrum Product Owner (CSPO®) and ISTQB® Certified Tester with expertise in delivering high-quality software across mobile and web platforms.</p>
                 <p>My passion for innovation and problem-solving drives me to seek out new challenges and opportunities for growth. With a keen attention to detail and a focus on quality and communication, I bring a valuable perspective to any IT project.</p>
             </div>
@@ -95,10 +96,26 @@
         <div class="projects-grid">
             <div class="project-card">
                 <div class="logos-container">
+                    <img src="assets/images/inwi-Emploi-Recrutement-3858577386.png" alt="INWI Logo" class="company-logo">
+                </div>
+                <h3>INWI - Logistics Information System Migration</h3>
+                <p class="project-details"><strong>Role:</strong> QA Consultant / Lead Test Consultant | <strong>Duration:</strong> December 2025 - Present</p>
+                <p>Lead test consultant on a system integration project replacing a legacy logistics information system with a new in-house platform. Applied the ISTQB test process across test strategy and planning, component-test reviews, and integration, system, and acceptance testing.</p>
+                <div class="project-tags">
+                    <span class="tag">Test Strategy &amp; Planning</span>
+                    <span class="tag">ISTQB Test Process</span>
+                    <span class="tag">Static Testing (Reviews)</span>
+                    <span class="tag">Integration Testing</span>
+                    <span class="tag">System &amp; Acceptance Testing</span>
+                    <span class="tag">E2E / Validation</span>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="logos-container">
                     <img src="assets/images/iPipeline_Logo-788394494.jpg" alt="iPipeline Logo" class="company-logo">
                 </div>
                 <h3>NTT DATA - Financial Services Automation</h3>
-                <p class="project-details"><strong>Role:</strong> QA Automation Engineer | <strong>Duration:</strong> May 2024 - Present</p>
+                <p class="project-details"><strong>Role:</strong> QA Automation Engineer | <strong>Duration:</strong> May 2024 - November 2025</p>
                 <p>Internal webapp and backoffice automation testing initiatives ensuring regression testing and high-quality artifacts delivered.</p>
                 <div class="project-tags">
                     <span class="tag">Selenium</span>
@@ -141,6 +158,60 @@
                     <span class="tag">Mobile Apps</span>
                 </div>
             </div>
+        </div>
+    </section>
+
+    <!-- Open Source / Featured GitHub Projects Section -->
+    <section class="section fade-in-section" id="open-source">
+        <div class="section-header">
+            <div class="section-label">Open Source</div>
+            <h2 class="section-title">Playwright in Practice</h2>
+            <p class="section-description">Featured test automation projects from my GitHub</p>
+        </div>
+        <div class="projects-grid">
+            <div class="project-card repo-card">
+                <div class="repo-card-header">
+                    <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 .5C5.37.5 0 5.87 0 12.5c0 5.3 3.44 9.8 8.21 11.39.6.11.82-.26.82-.58 0-.29-.01-1.05-.02-2.06-3.34.73-4.04-1.61-4.04-1.61-.55-1.39-1.34-1.76-1.34-1.76-1.09-.75.08-.73.08-.73 1.21.09 1.85 1.24 1.85 1.24 1.07 1.84 2.81 1.31 3.5 1 .11-.78.42-1.31.76-1.61-2.67-.3-5.47-1.34-5.47-5.96 0-1.32.47-2.39 1.24-3.23-.13-.3-.54-1.53.12-3.18 0 0 1.01-.32 3.3 1.23a11.5 11.5 0 0 1 6 0c2.29-1.55 3.3-1.23 3.3-1.23.66 1.65.25 2.88.12 3.18.77.84 1.24 1.91 1.24 3.23 0 4.63-2.81 5.65-5.49 5.95.43.37.82 1.1.82 2.22 0 1.6-.02 2.9-.02 3.29 0 .32.22.7.83.58A12.01 12.01 0 0 0 24 12.5C24 5.87 18.63.5 12 .5z"/></svg>
+                    <h3>Playwright Component Test Suite</h3>
+                </div>
+                <p class="repo-source">automationplayground.dev &middot; E2E &amp; Accessibility</p>
+                <p>End-to-end Playwright suite covering every UI component of automationplayground.dev. Built on a Page Object Model architecture with per-component test plans, and driven by a GitHub Actions pipeline that runs on every push, pull request, and a daily schedule with retained HTML reports. Surfaced several genuine site defects, duplicate DOM ids, invalid heading hierarchy, and unvalidated drag-and-drop interactions.</p>
+                <div class="project-tags">
+                    <span class="tag">Playwright</span>
+                    <span class="tag">TypeScript</span>
+                    <span class="tag">Page Object Model</span>
+                    <span class="tag">CI/CD (GitHub Actions)</span>
+                    <span class="tag">Accessibility</span>
+                    <span class="tag">Cross-browser</span>
+                </div>
+                <a href="https://github.com/Sabo2560/PW_Automation_Practice" target="_blank" rel="noopener" class="repo-link">
+                    <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 .5C5.37.5 0 5.87 0 12.5c0 5.3 3.44 9.8 8.21 11.39.6.11.82-.26.82-.58 0-.29-.01-1.05-.02-2.06-3.34.73-4.04-1.61-4.04-1.61-.55-1.39-1.34-1.76-1.34-1.76-1.09-.75.08-.73.08-.73 1.21.09 1.85 1.24 1.85 1.24 1.07 1.84 2.81 1.31 3.5 1 .11-.78.42-1.31.76-1.61-2.67-.3-5.47-1.34-5.47-5.96 0-1.32.47-2.39 1.24-3.23-.13-.3-.54-1.53.12-3.18 0 0 1.01-.32 3.3 1.23a11.5 11.5 0 0 1 6 0c2.29-1.55 3.3-1.23 3.3-1.23.66 1.65.25 2.88.12 3.18.77.84 1.24 1.91 1.24 3.23 0 4.63-2.81 5.65-5.49 5.95.43.37.82 1.1.82 2.22 0 1.6-.02 2.9-.02 3.29 0 .32.22.7.83.58A12.01 12.01 0 0 0 24 12.5C24 5.87 18.63.5 12 .5z"/></svg>
+                    View on GitHub
+                </a>
+            </div>
+            <div class="project-card repo-card">
+                <div class="repo-card-header">
+                    <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 .5C5.37.5 0 5.87 0 12.5c0 5.3 3.44 9.8 8.21 11.39.6.11.82-.26.82-.58 0-.29-.01-1.05-.02-2.06-3.34.73-4.04-1.61-4.04-1.61-.55-1.39-1.34-1.76-1.34-1.76-1.09-.75.08-.73.08-.73 1.21.09 1.85 1.24 1.85 1.24 1.07 1.84 2.81 1.31 3.5 1 .11-.78.42-1.31.76-1.61-2.67-.3-5.47-1.34-5.47-5.96 0-1.32.47-2.39 1.24-3.23-.13-.3-.54-1.53.12-3.18 0 0 1.01-.32 3.3 1.23a11.5 11.5 0 0 1 6 0c2.29-1.55 3.3-1.23 3.3-1.23.66 1.65.25 2.88.12 3.18.77.84 1.24 1.91 1.24 3.23 0 4.63-2.81 5.65-5.49 5.95.43.37.82 1.1.82 2.22 0 1.6-.02 2.9-.02 3.29 0 .32.22.7.83.58A12.01 12.01 0 0 0 24 12.5C24 5.87 18.63.5 12 .5z"/></svg>
+                    <h3>E-commerce Playground E2E Tests</h3>
+                </div>
+                <p class="repo-source">LambdaTest E-commerce Playground &middot; Full-stack app</p>
+                <p>Playwright test suite for a feature-rich, full-stack e-commerce application, covering the critical user journeys end to end, user authentication, product browsing, shopping cart, and the checkout process. Uses Faker.js to generate dynamic test data and runs against the live application from a clean state.</p>
+                <div class="project-tags">
+                    <span class="tag">Playwright</span>
+                    <span class="tag">TypeScript</span>
+                    <span class="tag">E2E Testing</span>
+                    <span class="tag">Faker.js</span>
+                    <span class="tag">Authentication Flows</span>
+                    <span class="tag">Checkout</span>
+                </div>
+                <a href="https://github.com/Sabo2560/LambdaTestPlaywright" target="_blank" rel="noopener" class="repo-link">
+                    <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 .5C5.37.5 0 5.87 0 12.5c0 5.3 3.44 9.8 8.21 11.39.6.11.82-.26.82-.58 0-.29-.01-1.05-.02-2.06-3.34.73-4.04-1.61-4.04-1.61-.55-1.39-1.34-1.76-1.34-1.76-1.09-.75.08-.73.08-.73 1.21.09 1.85 1.24 1.85 1.24 1.07 1.84 2.81 1.31 3.5 1 .11-.78.42-1.31.76-1.61-2.67-.3-5.47-1.34-5.47-5.96 0-1.32.47-2.39 1.24-3.23-.13-.3-.54-1.53.12-3.18 0 0 1.01-.32 3.3 1.23a11.5 11.5 0 0 1 6 0c2.29-1.55 3.3-1.23 3.3-1.23.66 1.65.25 2.88.12 3.18.77.84 1.24 1.91 1.24 3.23 0 4.63-2.81 5.65-5.49 5.95.43.37.82 1.1.82 2.22 0 1.6-.02 2.9-.02 3.29 0 .32.22.7.83.58A12.01 12.01 0 0 0 24 12.5C24 5.87 18.63.5 12 .5z"/></svg>
+                    View on GitHub
+                </a>
+            </div>
+        </div>
+        <div class="repos-cta">
+            <a href="https://github.com/Sabo2560" target="_blank" rel="noopener">Explore all repositories on GitHub &rarr;</a>
         </div>
     </section>
 
